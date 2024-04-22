@@ -4,37 +4,14 @@
  Austral 2023 - Informatica Electronica - Austral
  EAMartinez
 
-El objetivo de este proyecto es mostrar como una plaqueta realizada con ESP32 y conteniendo 4 LEDs y un pulsador, puede comunicarse con un _broker_ MQTT de manera de informar la opresión del pulsador y recibir las ordenes de prendido y apagado de los 4 LEDs que posee cada placa. De esta manera, a través del _broker_ se permite que esta placa (y hasta un total 4 placas de esta misma caracteristica) puedan formar parte de un conjunto de IoT donde el _broker_ MQTT es el elemento central de comunicación del flujo a través de todo el sistema 
+El objetivo de este proyecto es proveer un programa de ejemplo y probar la conectividad con el _broker_ que hayan configurado.
 
 ##      Hardware
 
 Para esta práctica no es necesario _hardware_ adicional
 ##      Conexiones
 
-  Conectar el riel negativo del _protoboard_ (el azul)  dal GND en placa de desarrollo de ESP32.
-
-  Para cada LED externo:  
-    * De GND al cátodo del LED
-    * Del ánodo del LED al resistor de 220 ohm
-    * Del otro extremo del resistor de 220 ohm al GPIO respectivo  
-
-  Conectar a los siguientes GPIOs:  
-    * LED rojo a 'LED_RED'  
-    * LED amarillo a 'LED_YEL'  
-    * LED verde a 'LED_GRN'  
-
-
-  Desde GPIO 'PUSH' a un extremo del pulsador Tact
-  Del otro extremo del pulsador Tact al riel negativo
-
-  Para identifiación de plaqueta usamos dos GPIOs _IB0_ e _IB1_:
-
-  | IB1 | IB0 | board |
-  |:---:|:---:|:-----:|
-  | GND | GND |  0 |
-  | GND |Open |  1 |
-  | Open| GND |  2 |
-  | Open|Open |  3 |
+No se necesitan conexiones
 
 ##      platformio.ini
 
