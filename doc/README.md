@@ -1,9 +1,9 @@
 
-#       Proyecto 41-mqtt_00
+#       Proyecto 01-MQTT-HolaMundo
 
  Austral 2023 - Informatica Electronica - Austral
  EAMartinez
-
+Proyecto original 41-mqtt_00
 El objetivo de este proyecto es proveer un programa de ejemplo y probar la conectividad con el _broker_ que hayan configurado.
 
 ##      Hardware
